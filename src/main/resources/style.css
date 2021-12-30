@@ -1,0 +1,38 @@
+
+
+#consumptiondetailschart .default-color0.chart-area-symbol { -fx-background-color: #1eb510, #1eb510; }
+#consumptiondetailschart .default-color1.chart-area-symbol { -fx-background-color: #f73131, #f73131; }
+
+#consumptiondetailschart .default-color0.chart-series-area-line { -fx-stroke: #1eb510; }
+#consumptiondetailschart .default-color1.chart-series-area-line { -fx-stroke: #f73131; }
+
+#consumptiondetailschart .default-color0.chart-series-area-fill { -fx-fill: #1eb510; }
+#consumptiondetailschart .default-color1.chart-series-area-fill { -fx-fill: #f73131; }
+
+#injectiondetailschart .default-color0.chart-area-symbol { -fx-background-color: #ffbb1c, #ffbb1c; }
+#injectiondetailschart .default-color1.chart-area-symbol { -fx-background-color: #b5b5b5, #b5b5b5; }
+
+#injectiondetailschart .default-color0.chart-series-area-line { -fx-stroke: #ffbb1c; }
+#injectiondetailschart .default-color1.chart-series-area-line { -fx-stroke: #b5b5b5; }
+
+#injectiondetailschart .default-color0.chart-series-area-fill { -fx-fill: #ffbb1c; }
+#injectiondetailschart .default-color1.chart-series-area-fill { -fx-fill: #b5b5b5; }
+
+#consumptionchart .default-color0.chart-bar { -fx-bar-fill: #cf2525; }
+#consumptionchart .default-color1.chart-bar { -fx-bar-fill: #f29530; }
+
+#gridinjectionchart .default-color0.chart-bar { -fx-bar-fill: #a6a605; }
+#gridinjectionchart .default-color1.chart-bar { -fx-bar-fill: #e0e00b; }
+
+#pricechart .default-color0.chart-bar { -fx-bar-fill: #3564b5; }
+#pricechart .default-color1.chart-bar { -fx-bar-fill: #4589ff; }
+
+
+.heading {
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+}
+
+.title {
+    -fx-font-size: 2.5em;
+}
