@@ -69,6 +69,9 @@ public class App extends Application {
         tabPane.getTabs().add(resultsTab);
         tabPane.getTabs().add(detailsTab);
 
+        resultsTab.setDisable(true);
+        detailsTab.setDisable(true);
+
         VBox vBox = new VBox(tabPane);
         Scene scene = new Scene(vBox);
         scene.getStylesheets().add("style.css");
@@ -104,6 +107,9 @@ public class App extends Application {
 
         resultPane.initView();
         detailsPane.initView();
+
+        tabPane.getTabs().get(1).setDisable(false);
+        tabPane.getTabs().get(2).setDisable(false);
 
         tabPane.getSelectionModel().select(1);
     }
