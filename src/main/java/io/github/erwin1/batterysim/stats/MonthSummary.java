@@ -17,12 +17,12 @@ public class MonthSummary {
     }
 
     public static List<MonthSummary> calculateMonthSummary(List<Usage> logs, PriceConfig priceConfig) {
-        LocalDate start = logs.get(0).getDateTimeInterval().getStartDate().toLocalDate();
-        LocalDate end = logs.get(logs.size() - 1).getDateTimeInterval().getStartDate().toLocalDate().plusMonths(1);
+        LocalDate start = logs.get(0).getDateTimeInterval().getStartDate().toLocalDate().withDayOfMonth(1);
+        LocalDate end = logs.get(logs.size() - 1).getDateTimeInterval().getStartDate().toLocalDate();
 
         List<MonthSummary> list = new LinkedList<>();
 
-        while(start.compareTo(end) < 0) {
+        while(start.compareTo(end) <= 0) {
             final LocalDate month = start;
             List<Usage> filtered = logs.stream().filter(u -> u.getDateTimeInterval().isInSameMonth(month)).collect(Collectors.toList());
             Summary summary = Summary.calculateSummary(filtered, priceConfig);
