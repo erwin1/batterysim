@@ -7,12 +7,12 @@ rem See https://github.com/dlemmermann/JPackageScriptFX
 rem The script depends on various environment variables to exist in order to
 rem run properly:
 rem
-rem PROJECT_VERSION=1.1.0-SNAPSHOT
+rem APP_VERSION=1.0.0
 
 set JAVA_VERSION=17
 set APP_NAME=BatterySim
 set MAIN_JAR="batterysim-%APP_VERSION%.jar"
-set LAUNCHER_CLASS=io.github.erwin1.batterysim.AppLauncher
+set LAUNCHER_CLASS=io.github.erwin1.batterysim.app.AppLauncher
 set MAIN_CLASS=io/github/erwin1/batterysim/app/App
 set ICON_PATH=src\main\resources\BatterySimLogo.ico
 

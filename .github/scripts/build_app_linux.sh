@@ -11,7 +11,7 @@
 JAVA_VERSION=17
 APP_NAME=BatterySim
 MAIN_JAR="batterysim-$APP_VERSION.jar"
-LAUNCHER_CLASS=io.github.erwin1.batterysim.AppLauncher
+LAUNCHER_CLASS=io.github.erwin1.batterysim.app.AppLauncher
 MAIN_CLASS=io/github/erwin1/batterysim/app/App
 ICON_PATH=src/main/resources/BatterySimLogo.png
 
