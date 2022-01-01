@@ -53,11 +53,11 @@ jobs:
         run: |
           .github/scripts/build_app_linux.sh \
           --type deb
-          mv App/target/installer/*.deb staging/BatterySim-${{ env.APP_VERSION }}.deb
+          mv target/installer/*.deb staging/BatterySim-${{ env.APP_VERSION }}.deb
           echo ::set-output name=pathDeb::staging/BatterySim-${{ env.APP_VERSION }}.deb
           .github/scripts/build_app_linux.sh \
           --type rpm
-          mv App/target/installer/*.rpm staging/BatterySim-${{ env.APP_VERSION }}.rpm
+          mv target/installer/*.rpm staging/BatterySim-${{ env.APP_VERSION }}.rpm
           echo ::set-output name=pathRpm::staging/BatterySim-${{ env.APP_VERSION }}.rpm
         env:
           APP_VERSION: ${{needs.create-release.outputs.app_version}}
