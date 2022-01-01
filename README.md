@@ -15,8 +15,8 @@ If you have other types of logs files, have a look at [How to extend for other l
 
 First of all, you need to run the application on your PC. There are several options:
 
-- Download one of the installers for Windows, Mac OS or Linux (**TODO** create OS specific installers)
-- Download the source code and run the application from source. See [How to run in development](#how-to-run-in-development) below.
+- Download one of the installers for [Windows](releases/download/v1.0.0/BatterySim-windows-1.0.0.msi), [Mac OS](releases/download/v1.0.0/BatterySim-macos-1.0.0.pkg) or Linux ([deb](releases/download/v1.0.0/BatterySim-linux-1.0.0.deb) or [rpm](releases/download/v1.0.0/BatterySim-linux-1.0.0.rpm)) from the [release page](releases/tag/v1.0.0).
+- Or download the source code and run the application from source. See [How to run in development](#how-to-run-in-development) below.
 
 ### Run
 
