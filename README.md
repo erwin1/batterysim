@@ -15,7 +15,7 @@ If you have other types of logs files, have a look at [How to extend for other l
 
 First of all, you need to run the application on your PC. There are several options:
 
-- Download one of the installers for [Windows](/erwin1/batterysim/releases/download/v1.0.0/BatterySim-windows-1.0.0.msi), [Mac OS](/erwin1/batterysim/releases/download/v1.0.0/BatterySim-macos-1.0.0.pkg) or Linux ([deb](/erwin1/batterysim/releases/download/v1.0.0/BatterySim-linux-1.0.0.deb) or [rpm](/erwin1/batterysim/releases/download/v1.0.0/BatterySim-linux-1.0.0.rpm)) from the [release page](/erwin1/batterysim/releases/tag/v1.0.0).
+- Download one of the installers for [Windows](https://github.com/erwin1/batterysim/releases/download/v1.0.0/BatterySim-windows-1.0.0.msi), [Mac OS](https://github.com/erwin1/batterysim/releases/download/v1.0.0/BatterySim-macos-1.0.0.pkg) or Linux ([deb](https://github.com/erwin1/batterysim/releases/download/v1.0.0/BatterySim-linux-1.0.0.deb) or [rpm](https://github.com/erwin1/batterysim/releases/download/v1.0.0/BatterySim-linux-1.0.0.rpm)) from the [release page](https://github.com/erwin1/batterysim/releases/tag/v1.0.0).
 - Or download the source code and run the application from source. See [How to run in development](#how-to-run-in-development) below.
 
 ### Run
